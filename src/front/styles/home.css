@@ -1,7 +1,57 @@
-/*
-    home.css: This website contains selectors only used in home.css
-
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+body {
+    background-color: #f6f3ee;
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    writing-mode: vertical-lr;
+    display: flex;
+    transform: rotate(180deg);
+    word-spacing: 1cm;
+    letter-spacing: 1.2px;
+    padding-left: 10%;
+  }
+  
+  .intro {
+    display: inline;
+    top: 0;
+    margin-top: 22%;
+    margin-right: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+  }
+  
+  .right-column {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-left: 16%;
+  }
+  
+  .large-text {
+    font-size: 145px;
+  }
+  
+  .left-link {
+    padding-bottom: 210px;
+  }
+  
+  .github {
+    padding-bottom: 38px;
+  }
+  
+  .links p a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .links p a:hover {
+    color: rgb(109, 179, 119);
+  }
+  
+  .links p a:active {
+    color: deepburgundy;
+  }
+  
