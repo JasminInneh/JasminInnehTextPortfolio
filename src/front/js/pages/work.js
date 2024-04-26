@@ -7,20 +7,20 @@ export const Work = () => {
 
   return (
     <div className="layer-one container-fluid" id="work-body">
-      <div className="main mt-5">
+      <div className="main">
         <div className="container text-center">
           <div className="row align-items-center">
-            <div className=" links col-1">
-              <div className="left-link">
+            <div className=" work-links col-1">
+              <div className="work-left-link">
                 <p>O__/2024</p>
               </div>
               <p>______________</p>
-              <p className="github">
-                <a href="https://github.com/jasmininneh">HOME</a>
+              <p className="home">
+                <a href="/">HOME</a>
               </p>
             </div>
-            <div className="intro col">
-              <h5 className="name mb-3">WORK</h5>
+            <div className="work col">
+              <h5 className="work-title mb-3">WORK</h5>
               <p>
                 This is a showcase of my finest projects across multiple
                 domains, reflecting my proficiency as a full-stack developer
@@ -35,7 +35,7 @@ export const Work = () => {
                 cutting edge of innovation and creativity.
               </p>
             </div>
-            <div className="right-column col-8">
+            <div className="work-right-column col-8">
               <h1 className="large-text display-1 work-large-text">
                 ADAPTIVE
               </h1>
