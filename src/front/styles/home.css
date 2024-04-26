@@ -10,6 +10,7 @@ body {
     word-spacing: 1cm;
     letter-spacing: 1.2px;
     padding-left: 10%;
+    font-family: "Montserrat", sans-serif;
   }
   
   .intro {
@@ -19,6 +20,7 @@ body {
     margin-right: 15px;
     text-align: justify;
     letter-spacing: 0.5px;
+    font-family: "Montserrat", sans-serif;
   }
   
   .right-column {
