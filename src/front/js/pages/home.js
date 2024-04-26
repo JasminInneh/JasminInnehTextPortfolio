@@ -4,15 +4,15 @@ import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
 export const Home = () => {
-	const { store, actions } = useContext(Context);
+  const { store, actions } = useContext(Context);
 
-	return (
-		<div className="layer-one container-fluid">
+  return (
+    <div className="layer-one container-fluid">
       <div className="main mt-5">
         <div className="container text-center">
           <div className="row align-items-center">
-            <div className=" links col-1">
-              <div className="left-link">
+            <div className="home-links col-1">
+              <div className="home-left-link">
                 <p>O__/2024</p>
               </div>
               <p>______________</p>
@@ -20,18 +20,17 @@ export const Home = () => {
                 <a href="https://github.com/jasmininneh">GITHUB</a>
               </p>
               <p>
-                <a
-                  href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                  >LINKEDIN</a
-                >
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+                  LINKEDIN
+                </a>
               </p>
               <p>
-                <a href="https://gpt-3-application-zeta.vercel.app/"
-                  >PROJECTS</a
-                >
+                <a href="https://gpt-3-application-zeta.vercel.app/">
+                  PROJECTS
+                </a>
               </p>
             </div>
-            <div className="intro col">
+            <div className="home-intro col">
               <h5 className="name mb-3">Jasmin Nicole Inneh</h5>
               <p>Full Stack Developer | React | JavaScript | Python |MySQL</p>
               <p>
@@ -39,14 +38,14 @@ export const Home = () => {
                 Florida.
               </p>
             </div>
-            <div className="right-column col-8">
-              <h1 className="large-text display-1">WORK</h1>
-              <h1 className="large-text display-1">ABOUT</h1>
-              <h1 className="large-text display-1">CONTACT</h1>
+            <div className="home-right-column col-8">
+              <h1 className="large-text display-1 home-large-text">WORK</h1>
+              <h1 className="large-text display-1 home-large-text">ABOUT</h1>
+              <h1 className="large-text display-1 home-large-text">CONTACT</h1>
             </div>
           </div>
         </div>
       </div>
     </div>
-	);
+  );
 };

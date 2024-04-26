@@ -36,15 +36,11 @@ export const Work = () => {
               </p>
             </div>
             <div className="work-right-column col-8">
-              <h1 className="large-text display-1 work-large-text">
-                ADAPTIVE
-              </h1>
-              <h1 className="large-text display-1 work-large-text">
+              <h1 className="large-text display-1 work-large-text" id="work-large-text">ADAPTIVE</h1>
+              <h1 className="large-text display-1 work-large-text" id="work-large-text">
                 PURPOSEFUL
               </h1>
-              <h1 className="large-text display-1 work-large-text">
-                SCALABLE 
-              </h1>
+              <h1 className="large-text display-1 work-large-text" id="work-large-text">SCALABLE</h1>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ export const About = () => {
             <div className="about col">
               <h1 className="about-title mb-3">About</h1>
               <h4>
-                Hi. 
+                Hi.
                 <br />
                 I'm Jasmin Inneh. A software engineer, innovator, and code
                 detective. Passionate about crafting creative solutions and
@@ -59,9 +59,22 @@ export const About = () => {
                 out."
               </h5>
             </div>
-            <span className="about-headers">Skills</span>
-            <div className="about-right-column col-8">
-              {/* <span className="about-headers">Skills</span> */}
+            <div className="skills">
+              <span className="about-headers">Skills</span>
+              <p>
+                JavaScript | React JS | Python | Bootstrap | VSCode | Node.Js |
+                CSS | MySQL | HTML5 | Github | Git | Flask | DOM | JSON |
+                Node.js | OOP | React Native | Figma
+              </p>
+            </div>
+            <div className="cv-button">
+              <a
+                href="https://flowcv.com/resume/mhl4i4f3hc"
+                className="btn btn-dark"
+                download
+              >
+                Resume
+              </a>
             </div>
           </div>
         </div>
