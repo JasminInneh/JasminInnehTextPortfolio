@@ -6,7 +6,7 @@ export const Contact = () => {
   const { store, actions } = useContext(Context);
 
   return (
-    <div className="layer-one container-fluid" id="work-body">
+    <div className="layer-one container-fluid" id="contact-body">
       <div className="main">
         <div className="container text-center">
           <div className="row align-items-center">
@@ -26,7 +26,7 @@ export const Contact = () => {
                 can manage and update independently? Get in touch.
               </p>
             </div>
-            <div className="work-right-column col-8"></div>
+            <div className="contact-right-column col-8"></div>
           </div>
         </div>
       </div>
