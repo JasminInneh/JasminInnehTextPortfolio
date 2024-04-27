@@ -21,56 +21,70 @@ export const About = () => {
             </div>
             <div className="about col">
               <h1 className="about-title mb-3">About</h1>
-              <h4>
-                Hi.
-                <br />
-                I'm Jasmin Inneh. A software engineer, innovator, and code
-                detective. Passionate about crafting creative solutions and
-                unraveling the complexities of programming to transform
-                challenging problems into elegant results.
-              </h4>
-              <p>
-                The fusion of creativity and technology has always been my
-                playground. From tinkering with design software and crafting
-                Myspace pages in high school to delving into coding, my journey
-                spans over a decade. Today, my palette includes a diverse array
-                of tools and languages—from React to Python and beyond.
-              </p>
-              <p>
-                What ignites my passion is the ability to breathe life into
-                ideas through elegant code and immersive user experiences.
-                Software engineering isn't just a career—it's a calling. It's
-                about unraveling puzzles, crafting elegant solutions, and
-                inspiring change.
-              </p>
-              <p>
-                With each project, I blend innovation with artistry, enriching
-                lives and captivating hearts and minds. It's about embracing the
-                endless possibilities of the digital canvas, channeling my
-                passion for creativity and expression into every line of code I
-                write.
-              </p>
+              <div className="row align-items-center">
+                <div className="col-12 about-me-paragraph">
+                  <h4>
+                    I'm Jasmin Inneh. A software engineer, innovator, and code
+                    detective. Passionate about crafting creative solutions and
+                    unraveling the complexities of programming to transform
+                    challenging problems into elegant results.
+                  </h4>
+                  <br />
+                  <p>
+                    The fusion of creativity and technology has always been my
+                    playground. From tinkering with design software and crafting
+                    Myspace pages in high school to delving into coding, my
+                    journey spans over a decade. Today, my palette includes a
+                    diverse array of tools and languages—from React to Python
+                    and beyond.
+                  </p>
+                  <p>
+                    What ignites my passion is the ability to breathe life into
+                    ideas through elegant code and immersive user experiences.
+                    Software engineering isn't just a career—it's a calling.
+                    It's about unraveling puzzles, crafting elegant solutions,
+                    and inspiring change.
+                  </p>
+                  <p>
+                    With each project, I blend innovation with artistry,
+                    enriching lives and captivating hearts and minds. It's about
+                    embracing the endless possibilities of the digital canvas,
+                    channeling my passion for creativity and expression into
+                    every line of code I write.
+                  </p>
+                </div>
 
-              <br />
-              <br />
-              <p>This is one of my favorite quotes by Robert Collier:</p>
-              <h5 className="large-text display-1">
-                "Success is the sum of small efforts, repeated day in and day
-                out."
-              </h5>
-            </div>
+                <div className="col-12">
             <div className="skills">
-              <span className="about-headers">Skills</span>
-              <p>
-                JavaScript | React JS | Python | Bootstrap | VSCode | Node.Js |
-                CSS | MySQL | HTML5 | Github | Git | Flask | DOM | JSON |
-                Node.js | OOP | React Native | Figma
-              </p>
+              <h2 className="skills-header">Skills</h2>
+              <div className="skills-list">
+                <span className="skill-tag">JavaScript</span>
+                <span className="skill-tag">React JS</span>
+                <span className="skill-tag">Python</span>
+                <span className="skill-tag">Bootstrap</span>
+                <span className="skill-tag">VSCode</span>
+                <span className="skill-tag">Node.js</span>
+                <span className="skill-tag">CSS</span>
+                <span className="skill-tag">MySQL</span>
+                <span className="skill-tag">HTML5</span>
+                <span className="skill-tag">GitHub</span>
+                <span className="skill-tag">Git</span>
+                <span className="skill-tag">Flask</span>
+                <span className="skill-tag">DOM</span>
+                <span className="skill-tag">JSON</span>
+                <span className="skill-tag">Node.js</span>
+                <span className="skill-tag">OOP</span>
+                <span className="skill-tag">React Native</span>
+                <span className="skill-tag">Figma</span>
+              </div>
             </div>
-            <div className="cv-button">
+            </div>
+
+
+            <div className="cv-button align-items-center">
               <a
                 href="https://flowcv.com/resume/mhl4i4f3hc"
-                className="btn btn-dark"
+                className="btn btn-dark btn-lg"
                 download
               >
                 Resume
@@ -79,6 +93,8 @@ export const About = () => {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };
