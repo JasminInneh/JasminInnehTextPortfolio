@@ -36,6 +36,11 @@
   font-size: 110px;
 }
 
+.work-large-text:hover {
+  transform: skew(-10deg);
+}
+
+
 .work-left-link {
   padding-bottom: 410px;
 }
