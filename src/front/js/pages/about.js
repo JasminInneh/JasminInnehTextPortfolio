@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/about.css";
+import "animate.css";
 
 export const About = () => {
   const { store, actions } = useContext(Context);
 
   return (
     <div className="layer-one container-fluid">
-      <div className="abbout-main mt-5">
+      <div className="about-main mt-5 animate__animated animate__fadeInUp">
         <div className="container text-center">
           <div className="row align-items-center">
             <div className="about-links col-1">
@@ -55,46 +56,45 @@ export const About = () => {
                 </div>
 
                 <div className="col-12">
-            <div className="skills">
-              <h2 className="skills-header">Skills</h2>
-              <div className="skills-list">
-                <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">React JS</span>
-                <span className="skill-tag">Python</span>
-                <span className="skill-tag">Bootstrap</span>
-                <span className="skill-tag">VSCode</span>
-                <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">CSS</span>
-                <span className="skill-tag">MySQL</span>
-                <span className="skill-tag">HTML5</span>
-                <span className="skill-tag">GitHub</span>
-                <span className="skill-tag">Git</span>
-                <span className="skill-tag">Flask</span>
-                <span className="skill-tag">DOM</span>
-                <span className="skill-tag">JSON</span>
-                <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">OOP</span>
-                <span className="skill-tag">React Native</span>
-                <span className="skill-tag">Figma</span>
+                  <div className="skills">
+                    <h2 className="skills-header">Skills</h2>
+                    <div className="skills-list">
+                      <span className="skill-tag">JavaScript</span>
+                      <span className="skill-tag">React JS</span>
+                      <span className="skill-tag">Python</span>
+                      <span className="skill-tag">Bootstrap</span>
+                      <span className="skill-tag">VSCode</span>
+                      <span className="skill-tag">Node.js</span>
+                      <span className="skill-tag">CSS</span>
+                      <span className="skill-tag">MySQL</span>
+                      <span className="skill-tag">HTML5</span>
+                      <span className="skill-tag">GitHub</span>
+                      <span className="skill-tag">Git</span>
+                      <span className="skill-tag">Flask</span>
+                      <span className="skill-tag">DOM</span>
+                      <span className="skill-tag">JSON</span>
+                      <span className="skill-tag">Node.js</span>
+                      <span className="skill-tag">OOP</span>
+                      <span className="skill-tag">React Native</span>
+                      <span className="skill-tag">Figma</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="cv-button align-items-center">
+                  <a
+                    href="https://flowcv.com/resume/mhl4i4f3hc"
+                    className="btn btn-dark btn-lg"
+                    download
+                  >
+                    Resume
+                  </a>
+                </div>
               </div>
-            </div>
-            </div>
-
-
-            <div className="cv-button align-items-center">
-              <a
-                href="https://flowcv.com/resume/mhl4i4f3hc"
-                className="btn btn-dark btn-lg"
-                download
-              >
-                Resume
-              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
     </div>
   );
 };

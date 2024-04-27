@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/contact.css";
+import 'animate.css';
 
 export const Contact = () => {
   const { store, actions } = useContext(Context);
 
   return (
     <div className="layer-one container-fluid" id="contact-body">
-      <div className="main">
+      <div className="main animate__animated animate__fadeInUp">
         <div className="container text-center">
           <div className="row align-items-center">
             <div className=" contact-links col-1">

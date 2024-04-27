@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import "animate.css";
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
 
   return (
     <div className="layer-one container-fluid">
-      <div className="main mt-5">
+      <div className="main mt-5 animate__animated animate__fadeInDown">
         <div className="container text-center">
           <div className="row align-items-center">
             <div className="home-links col-1">
@@ -39,9 +39,15 @@ export const Home = () => {
               </p>
             </div>
             <div className="home-right-column col-8">
-              <h1 className="large-text display-1 home-large-text"><a href="/Work">WORK</a></h1>
-              <h1 className="large-text display-1 home-large-text"><a href="/About">ABOUT</a></h1>
-              <h1 className="large-text display-1 home-large-text"><a href="/Contact">CONTACT</a></h1>
+              <h1 className="large-text display-1 home-large-text">
+                <a href="/Work">WORK</a>
+              </h1>
+              <h1 className="large-text display-1 home-large-text">
+                <a href="/About">ABOUT</a>
+              </h1>
+              <h1 className="large-text display-1 home-large-text">
+                <a href="/Contact">CONTACT</a>
+              </h1>
             </div>
           </div>
         </div>

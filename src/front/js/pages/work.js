@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/work.css";
+import 'animate.css';
 
 export const Work = () => {
   const { store, actions } = useContext(Context);
 
   return (
     <div className="layer-one container-fluid" id="work-body">
-      <div className="main">
+      <div className="main animate__animated animate__fadeInUp">
         <div className="container text-center">
           <div className="row align-items-center">
             <div className=" work-links col-1">
