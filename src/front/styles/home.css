@@ -34,6 +34,18 @@ body {
 .home-large-text {
   font-size: 145px !important;
 }
+.home-large-text a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.home-large-text a:hover {
+  color: rgb(109, 179, 119);
+}
+.home-large-text a:active {
+  color: deepburgundy;
+}
 
 .home-left-link {
   padding-bottom: 210px;

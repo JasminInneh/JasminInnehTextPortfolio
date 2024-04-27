@@ -39,8 +39,8 @@ export const Home = () => {
               </p>
             </div>
             <div className="home-right-column col-8">
-              <h1 className="large-text display-1 home-large-text">WORK</h1>
-              <h1 className="large-text display-1 home-large-text">ABOUT</h1>
+              <h1 className="large-text display-1 home-large-text"><a href="/Work">WORK</a></h1>
+              <h1 className="large-text display-1 home-large-text"><a href="/About">ABOUT</a></h1>
               <h1 className="large-text display-1 home-large-text">CONTACT</h1>
             </div>
           </div>
