@@ -16,7 +16,7 @@ export const About = () => {
               </div>
               <p>______________</p>
               <p>
-                <a href="/">Home</a>
+                <a href="/">HOME</a>
               </p>
             </div>
             <div className="about col">

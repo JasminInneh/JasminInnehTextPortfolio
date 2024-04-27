@@ -19,12 +19,32 @@ export const Contact = () => {
                 <a href="/">HOME</a>
               </p>
             </div>
-            <div className="contact col">
-              <h2 className="contact-title mb-3">HELLO.</h2>
-              <p>
-                Looking for a stunning, meticulously crafted website that you
-                can manage and update independently? Get in touch.
-              </p>
+            <div className="contact col-6">
+              <h2 className="contact-title mb-3">Hello.</h2>
+              <div className="contact-info">
+                <p>
+                  Looking for a stunning, meticulously crafted website that you
+                  can manage and update independently? Get in touch.
+                </p>
+                <p>Email: jasmininneh@gmail.com</p>
+                <p>
+                  On the Internet:
+                  <a
+                    href="www.linkedin.com/in/jasmin-inneh-3b05b7298"
+                    className="contact-link-horizontal"
+                  >
+                    {" "}
+                    LinkedIn
+                  </a>
+                  /
+                  <a
+                    href="https://github.com/jasmininneh"
+                    className="contact-link-horizontal"
+                  >
+                     Github
+                  </a>
+                </p>
+              </div>
             </div>
             <div className="contact-right-column col-8"></div>
           </div>

@@ -21,9 +21,17 @@
   margin-right: 15px;
   text-align: start;
   letter-spacing: 0.5px;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+}
+.contact-title {
+  font-size: 200px;
+  font-family: "Playfair Display SC", serif;
 }
 
+.contact-info {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
 .contact-left-link {
   padding-bottom: 410px;
 }
@@ -43,5 +51,18 @@
 }
 
 .contact-links p a:active {
+  color: deepburgundy;
+}
+.contact-link-horizontal {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-link-horizontal:hover {
+  color: rgb(109, 179, 119);
+}
+
+.contact-link-horizontal:active {
   color: deepburgundy;
 }
