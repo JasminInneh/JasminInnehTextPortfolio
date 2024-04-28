@@ -62,3 +62,29 @@ body {
 .home-links p a:hover {
   color: rgb(109, 179, 119);
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .home-links {
+    writing-mode: horizontal-tb;
+    transform: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .home-intro,
+  .home-right-column {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .home-right-column {
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+
+  .home-large-text {
+    font-size: 100px !important;
+  }
+}
