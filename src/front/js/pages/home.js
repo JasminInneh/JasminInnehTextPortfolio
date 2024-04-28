@@ -7,7 +7,7 @@ export const Home = () => {
   const { store, actions } = useContext(Context);
 
   return (
-    <div className="layer-one container-fluid">
+    <div className="layer-one container-fluid" id="home-body">
       <div className="main mt-5 animate__animated animate__fadeInDown">
         <div className="container text-center">
           <div className="row align-items-center">

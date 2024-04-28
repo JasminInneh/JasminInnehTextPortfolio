@@ -1,6 +1,5 @@
-body {
+#home-body {
   background-color: #f6f3ee;
-  margin-bottom: 10px;
 }
 
 .home-links {
@@ -46,11 +45,12 @@ body {
 }
 
 .home-left-link {
-  padding-bottom: 210px;
+  margin-top: 40px;
+  padding-bottom: 300px;
 }
 
 .github {
-  padding-bottom: 38px;
+  padding-bottom: 32px;
 }
 
 .home-links p a {
@@ -63,9 +63,12 @@ body {
   color: rgb(109, 179, 119);
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
+/* New media query for stacking elements */
+@media (max-width: 992px) {
   .home-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     writing-mode: horizontal-tb;
     transform: none;
     padding-left: 0;
@@ -81,10 +84,11 @@ body {
   }
 
   .home-right-column {
-    font-size: 20px; /* Adjust the font size as needed */
+    font-size: 20px;
   }
 
   .home-large-text {
     font-size: 100px !important;
+    margin-top: 20px;
   }
 }
