@@ -4,6 +4,7 @@
 }
 
 .work-links {
+  font-size: 12px;
   writing-mode: vertical-lr;
   display: flex;
   transform: rotate(180deg);
@@ -41,7 +42,7 @@
 
 .work-left-link {
   margin-top: 40px;
-  padding-bottom: 440px;
+  padding-bottom: 480px;
 }
 
 .work-links p a {
