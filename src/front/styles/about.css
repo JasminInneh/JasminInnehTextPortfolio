@@ -1,8 +1,10 @@
-#about-body {
-  background-color: #f6f3ee;
-  height: 100vh;
+.about-main, .about-main .container {
+  min-height: 100vh;
 }
 
+#about-body {
+  background-color: #f6f3ee;
+}
 .about-links {
   font-size: 12px;
   writing-mode: vertical-lr;
@@ -86,4 +88,44 @@
 
 .cv-button {
   margin-bottom: 10px;
+}
+/* Media queries for small and medium screens */
+@media only screen and (max-width: 768px) {
+  #about-body {
+    height: 100vh; /* Override min-height with height for smaller screens */
+  }
+  .about-links {
+    writing-mode: horizontal-tb; /* Switch to horizontal for smaller screens */
+    transform: none; /* Reset transform */
+    padding-left: 0; 
+    margin-bottom: 20px;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #f6f3ee; 
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  .about-left-link {
+    padding-bottom: 0;
+  }
+
+  .about-links p {
+    margin: 0;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+
+  .about {
+    margin-top: 50px; 
+  }
+
+  .about-title {
+    margin-top: 10%; 
+    font-size: 80px; 
+    text-align: center;
+  }
+
+  .about-me-paragraph h4 {
+    text-align: justify; 
+  }
 }

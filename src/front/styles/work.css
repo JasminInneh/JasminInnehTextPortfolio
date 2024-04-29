@@ -58,18 +58,18 @@
 /* Media queries for small and medium screens */
 @media only screen and (max-width: 768px) {
   work-body {
-    margin-top: 60px; /* Add margin to the top of the screen */
+    margin-top: 60px;
   }
   .work-links {
     writing-mode: horizontal-tb; /* Switch to horizontal for smaller screens */
     transform: none; /* Reset transform */
-    padding-left: 0; /* Remove left padding */
+    padding-left: 0;
     margin-bottom: 20px; /* Add some bottom margin */
-    position: fixed; /* Position the work links at the top */
-    top: 0; /* Align at the top */
-    left: 0; /* Align at the left */
-    width: 100%; /* Full width */
-    background-color: #1a1818; /* Background color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1818;
     z-index: 1000; /* Ensure it's on top of other content */
   }
 
@@ -80,19 +80,19 @@
   }
 
   .work {
-    margin-top: 50px; /* Add margin to accommodate the fixed work links */
+    margin-top: 50px; /* Added margin to accommodate the fixed work links */
   }
 
   .work-right-column {
-    padding-left: 0; /* Remove left padding */
+    padding-left: 0;
   }
 
   .work-left-link {
-    margin-top: 0; /* Reset top margin */
-    padding-bottom: 0; /* Remove bottom padding */
+    margin-top: 0;
+    padding-bottom: 0;
   }
 
   #work-large-text {
-    font-size: 60px !important; /* Adjust font size for smaller screens */
+    font-size: 60px !important;
   }
 }
