@@ -1,5 +1,6 @@
 #home-body {
   background-color: #f6f3ee;
+  min-height: 100vh;
 }
 
 .home-links {
@@ -64,32 +65,3 @@
   color: rgb(109, 179, 119);
 }
 
-/* New media query for stacking elements */
-@media (max-width: 992px) {
-  .home-links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    writing-mode: horizontal-tb;
-    transform: none;
-    padding-left: 0;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-
-  .home-intro,
-  .home-right-column {
-    text-align: center;
-    margin-top: 20px;
-    padding-left: 0;
-  }
-
-  .home-right-column {
-    font-size: 20px;
-  }
-
-  .home-large-text {
-    font-size: 100px !important;
-    margin-top: 20px;
-  }
-}
