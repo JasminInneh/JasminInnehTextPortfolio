@@ -1,3 +1,4 @@
+/* Base styles */
 #home-body {
   background-color: #f6f3ee;
 }
@@ -63,55 +64,80 @@
 .home-links p a:hover {
   color: rgb(109, 179, 119);
 }
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .home-links {
+    word-spacing: 0.5cm; 
+  }
+  .home-right-column {
+    padding-left: 10%; 
+  }
+}
+
+@media (max-width: 992px) {
+  .home-right-column {
+    font-size: 90%; 
+  }
+  .home-large-text {
+    font-size: 120px !important ; 
+  }
+}
+
 @media (max-width: 768px) {
   #home-body {
     min-height: 100vh;
   }
   .home-links {
-    flex-direction: row; /* Ensure links are laid out horizontally */
-    justify-content: space-around; /* Distribute space evenly around items */
-    align-items: center; /* Center items vertically */
-    padding-left: 0; /* Remove padding on the left */
-    transform: none; /* Remove rotation */
-    writing-mode: horizontal-tb; /* Default writing mode for horizontal text */
-    margin-top: 10px; /* Add some space at the top */
-    width: 100%; /* Full width to accommodate all links in one row */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+    transform: none;
+    writing-mode: horizontal-tb;
+    margin-top: 10px;
+    width: 100%;
   }
-
   .home-left-link,
   .github,
   .home-links p {
-    padding: 5px 10px; /* Add padding for touch targets */
-    margin: 0; /* Remove any additional margin */
+    padding: 5px 10px;
+    margin: 0;
   }
-
   .home-intro {
-    display: block; /* Use block layout */
-    margin-top: 20px; /* Add margin to separate from links */
-    text-align: center; /* Center text for better visibility */
+    display: block;
+    margin-top: 20px;
+    text-align: center;
   }
-
   .home-right-column {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Center align text horizontally */
+    text-align: center;
   }
-
   .home-right-column a {
-    font-size: 64px; /* Adjust the font size as needed */
-    margin-top: 10px; /* Add margin to the top */
-    margin-bottom: 10px; /* Add margin to the bottom */
-    padding: 10px 20px; /* Add padding to the sides */
-    font-weight: bold; /* Make the text bold */
+    font-size: 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
   }
-
   .home-large-text {
-    margin-top: 20px; /* Add some top margin for spacing */
-    text-align: left; /* Center align the large text */
+    font-size: 72px !important;
+    margin-top: 20px;
+    text-align: center; 
   }
   .home-right-column h1 {
-    margin-top: 0; /* Remove default top margin */
-    margin-bottom: -100px; /* Adjust bottom margin as needed */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-links {
+    font-size: 10px;
+  }
+  .home-large-text {
+    font-size: 48px !important; 
   }
 }

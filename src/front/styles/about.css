@@ -132,6 +132,6 @@
   }
 
   .about-me-paragraph h4 {
-    text-align: justify; 
+    text-align: revert; 
   }
 }
