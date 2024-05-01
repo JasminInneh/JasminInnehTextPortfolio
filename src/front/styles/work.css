@@ -60,11 +60,14 @@
   work-body {
     margin-top: 60px;
   }
+  .work-title {
+    margin-top: 20px;
+  }
   .work-links {
     writing-mode: horizontal-tb; /* Switch to horizontal for smaller screens */
     transform: none; /* Reset transform */
     padding-left: 0;
-    margin-bottom: 20px; /* Add some bottom margin */
+    margin-top: 10px;
     position: fixed;
     top: 0;
     left: 0;
