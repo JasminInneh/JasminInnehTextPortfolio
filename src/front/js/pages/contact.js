@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/contact.css";
-import 'animate.css';
+import "animate.css";
 
 export const Contact = () => {
   const { store, actions } = useContext(Context);
@@ -42,7 +42,7 @@ export const Contact = () => {
                     href="https://github.com/jasmininneh"
                     className="contact-link-horizontal"
                   >
-                     Github
+                    Github
                   </a>
                 </p>
               </div>

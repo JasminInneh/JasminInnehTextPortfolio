@@ -59,3 +59,37 @@
 .contact-link-horizontal:hover {
   color: rgb(109, 179, 119);
 }
+@media (max-width: 768px) {
+  .contact-links {
+    font-size: 10px; 
+    writing-mode: horizontal-tb; /* Change writing mode to horizontal */
+    flex-direction: row; 
+    justify-content: space-around; 
+    transform: none; /* Remove rotation */
+    padding-left: 0; 
+  }
+
+  .contact-left-link {
+    margin-top: 0; 
+    padding-bottom: 0; 
+  }
+
+  .contact {
+    width: 100%; 
+    margin-right: 0; 
+    padding: 20px; 
+    font-size: 16px; 
+  }
+
+  .contact-title {
+    font-size: 62.4px;
+  }
+
+  .contact-info {
+    font-size: 14px; 
+  }
+
+  .contact-right-column {
+    display: none; 
+  }
+}
