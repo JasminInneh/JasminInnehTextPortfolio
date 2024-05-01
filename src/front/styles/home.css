@@ -65,79 +65,20 @@
   color: rgb(109, 179, 119);
 }
 
-/* Responsive adjustments */
-@media (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
   .home-links {
-    word-spacing: 0.5cm; 
+    flex-direction: column; 
+    padding: 20px; 
   }
-  .home-right-column {
-    padding-left: 10%; 
-  }
-}
 
-@media (max-width: 992px) {
+  .home-intro,
   .home-right-column {
-    font-size: 90%; 
+    margin-top: 20px; 
+    padding-left: 0; 
   }
-  .home-large-text {
-    font-size: 120px !important ; 
-  }
-}
 
-@media (max-width: 768px) {
-  #home-body {
-    min-height: 100vh;
-  }
-  .home-links {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 0;
-    transform: none;
-    writing-mode: horizontal-tb;
-    margin-top: 10px;
-    width: 100%;
-  }
-  .home-left-link,
-  .github,
-  .home-links p {
-    padding: 5px 10px;
-    margin: 0;
-  }
-  .home-intro {
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .home-right-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .home-right-column a {
-    font-size: 64px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    font-weight: bold;
-  }
   .home-large-text {
-    font-size: 72px !important;
-    margin-top: 20px;
-    text-align: center; 
-  }
-  .home-right-column h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-
-@media (max-width: 480px) {
-  .home-links {
-    font-size: 10px;
-  }
-  .home-large-text {
-    font-size: 48px !important; 
+    font-size: 80px !important;
+    margin-top: 10px; 
   }
 }
