@@ -5,7 +5,7 @@ import "../../styles/home.css";
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
-
+  
   return (
     <div className="layer-one container-fluid" id="home-body">
       <div className="main animate__animated animate__fadeInDown">
@@ -30,6 +30,26 @@ export const Home = () => {
                 </a>
               </p>
             </div>
+            {/* Mobile navigation bar */}
+          <div className="d-lg-none d-block">
+            <div className="mobile-nav">
+              <p>O__/2024</p>
+              <p>______________</p>
+              <p className="github">
+                <a href="https://github.com/jasmininneh">GITHUB</a>
+              </p>
+              <p>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+                  LINKEDIN
+                </a>
+              </p>
+              <p>
+                <a href="https://gpt-3-application-zeta.vercel.app/">
+                  PROJECTS
+                </a>
+              </p>
+            </div>
+          </div>
             <div className="home-intro col">
               <h5 className="name mb-3">Jasmin Nicole Inneh</h5>
               <p>Full Stack Developer | React | JavaScript | Python |MySQL</p>

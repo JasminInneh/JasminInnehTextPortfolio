@@ -1,4 +1,3 @@
-/* Base styles */
 #home-body {
   background-color: #f6f3ee;
 }
@@ -66,9 +65,27 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .layer-one {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
   .home-links {
-    flex-direction: column; 
+    display: none; /* Hide home-links on mobile view */
+  }
+
+  .mobile-nav {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
     padding: 20px; 
+  }
+
+  .mobile-nav p {
+    margin-right: 10px; 
   }
 
   .home-intro,
@@ -78,7 +95,8 @@
   }
 
   .home-large-text {
-    font-size: 80px !important;
-    margin-top: 10px; 
+    font-size: 60px !important;
+    margin-top: 10px;
+    overflow: hidden; 
   }
 }
