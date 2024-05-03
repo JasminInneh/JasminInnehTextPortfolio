@@ -19,14 +19,12 @@ export const Home = () => {
                 <a href="https://github.com/jasmininneh">GITHUB</a>
               </p>
               <p>
-                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+                <a href="https://www.linkedin.com/in/jasmin-inneh-3b05b7298/">
                   LINKEDIN
                 </a>
               </p>
               <p>
-                <a href="https://gpt-3-application-zeta.vercel.app/">
-                  PROJECTS
-                </a>
+                {/* {} */}
               </p>
             </div>
             {/* Mobile navigation bar */}
@@ -43,9 +41,7 @@ export const Home = () => {
                   </a>
                 </p>
                 <p>
-                  <a href="https://gpt-3-application-zeta.vercel.app/">
-                    PROJECTS
-                  </a>
+                  {/* {} */}
                 </p>
               </div>
             </div>
@@ -74,7 +70,7 @@ export const Home = () => {
     </div>
   );
   
-};  
+}; 
 //   return (
 //     <div className="layer-one container-fluid" id="home-body">
 //       <div className="main animate__animated animate__fadeInDown">
