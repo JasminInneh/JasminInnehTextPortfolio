@@ -30,7 +30,7 @@ export const Home = () => {
             {/* Mobile navigation bar */}
             <div className="d-lg-none d-block">
               <div className="mobile-nav">
-                <p>O__/2024</p>
+                <p className="home-date">O__/2024</p>
                 <p>______________</p>
                 <p className="github">
                   <a href="https://github.com/jasmininneh">GITHUB</a>
