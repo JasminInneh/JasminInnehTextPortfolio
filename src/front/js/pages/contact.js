@@ -27,7 +27,13 @@ export const Contact = () => {
                   Looking for a stunning, meticulously crafted website that you
                   can manage and update independently? Get in touch.
                 </p>
-                <p>Email: jasmininneh@gmail.com</p>
+                <a
+                  href="mailto:jasmininneh@gmail.com"
+                  className="contact-link-horizontal"
+                >
+                  <p>Email: jasmininneh@gmail.com</p>
+                </a>
+
                 <p>
                   On the Internet:
                   <a

@@ -70,12 +70,13 @@
   }
   .contact-links {
     margin-top: 30px;
-    margin-left: 250px;
+    margin-left: 150px;
   }
 
   .contact-left-link {
     margin-top: 0;
     padding-bottom: 0;
+    margin-right: 40px;
   }
 
   .contact {
